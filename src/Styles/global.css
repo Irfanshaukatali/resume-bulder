@@ -1,0 +1,37 @@
+html,body,#root{
+    height: 100%;
+}
+.container{
+    /* background: red; */
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50px auto 50px;
+}
+.header{
+    /* background-color: black; */
+    
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(255, 208, 0); */
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    box-shadow: 0px 1px 5px 0px #ecd0de;
+    /* background-image: linear-gradient(blue, white,rgb(255, 255, 255),rgb(167, 167, 238)); */
+    font-weight: 600 ;
+    color: blue;
+
+}
+.content{
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

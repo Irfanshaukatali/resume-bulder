@@ -1,0 +1,13 @@
+.logo{
+    margin-right: auto;
+}
+.contents{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.contents a{
+    text-decoration: none !important;
+    color: whilte;
+}
